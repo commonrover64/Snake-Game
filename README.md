@@ -50,7 +50,16 @@ To build the app for production: eas build -p android --profile production
 
 ## Folder Structure 📁
 
-snake-game/ ├── assets/ # Images and icons ├── src/ # Source code │ ├── screens/ # App screens (Menu, Game, Highscore, etc.) │ ├── utils/ # Utility functions (e.g., storage.js) │ ├── App.js # Main app component │ ├── app.json # Expo configuration │ ├── eas.json # EAS build configuration └── package.json # Project dependencies
+snake-game/
+├── assets/              # Images and icons
+├── src/                 # Source code
+│   ├── screens/         # App screens (Menu, Game, Highscore, etc.)
+│   ├── utils/           # Utility functions (e.g., storage.js)
+│   ├── App.js           # Main app component
+│   ├── app.json         # Expo configuration
+│   ├── eas.json         # EAS build configuration
+└── package.json         # Project dependencies
+
 
 
 ## Contributing 🤝
