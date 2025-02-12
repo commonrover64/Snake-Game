@@ -53,12 +53,17 @@ To build the app for production: eas build -p android --profile production
 snake-game/
 
 ├── assets/ # Images and icons
+
 ├── src/
 │ ├── screens/ # App screens (Menu, Game, Highscore, etc.)
-│ ├── utils/ # Utility functions (e.g., storage.js)
+│ ├── utils/ # Utility functions (e.g., storage.js)\
+
 ├── App.js # Main app component
+
 ├── app.json # Expo configuration
+
 ├── eas.json # EAS build configuration
+
 └── package.json # Project dependencies
 
 ## Contributing 🤝
