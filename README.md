@@ -51,6 +51,7 @@ To build the app for production: eas build -p android --profile production
 ## Folder Structure 📁
 
 snake-game/
+
 ├── assets/ # Images and icons
 ├── src/
 │ ├── screens/ # App screens (Menu, Game, Highscore, etc.)
