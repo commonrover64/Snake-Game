@@ -49,7 +49,7 @@ To build the app for production: eas build -p android --profile production
 - **AsyncStorage**: For persisting high scores locally.
 
 ## Folder Structure 📁
-
+```
 snake-game/
 ├── assets/              # Images and icons
 ├── src/                 # Source code
@@ -60,7 +60,7 @@ snake-game/
 │   ├── eas.json         # EAS build configuration
 └── package.json         # Project dependencies
 
-
+```
 
 ## Contributing 🤝
 Contributions are welcome! Please open an issue or submit a pull request.
