@@ -2,9 +2,9 @@
   "expo": {
     "name": "snakeGame",
     "slug": "snakeGame",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "assets/snakelogo.png",
     "userInterfaceStyle": "light",
     "newArchEnabled": true,
     "splash": {
@@ -17,12 +17,19 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/snakelogo.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.commonrover.snakeGame"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "owner": "commonrover",
+    "extra": {
+      "eas": {
+        "projectId": "334b35ab-2314-4f76-b17c-f397fd789af2"
+      }
     }
   }
 }
