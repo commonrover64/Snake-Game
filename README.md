@@ -55,7 +55,7 @@ snake-game/
 ├── assets/ # Images and icons
 
 ├── src/
-       ├── screens/ # App screens (Menu, Game, Highscore, etc.)
+       ├── screens/ # App screens (Menu, Game, Highscore, etc.) <br>
        ├── utils/ # Utility functions (e.g., storage.js)\
 
 ├── App.js # Main app component
